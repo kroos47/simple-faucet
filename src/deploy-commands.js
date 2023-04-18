@@ -10,9 +10,6 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const commandsPath = path.join(__dirname, 'commands');
 const commandFiles = fs.readdirSync(commandsPath).filter(file => file.endsWith('.js'));
-// const DISCORD_TOKEN="MTA5NTMwNzIzMjEwMDQ5NTQxMA.GalNcc.8TC3xCOY57gR82TWcMtGuhc_Bpt39bEfLLwoUk"
-// const CLIENT_ID="1095307232100495410"
-// const GUILD_ID="1095316600716013589"
 // Grab the SlashCommandBuilder#toJSON() output of each command's data for deployment
 // for (const file of commandFiles) {
 //     const filePath = path.join(commandsPath, file);
